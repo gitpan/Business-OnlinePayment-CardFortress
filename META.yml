@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Business-OnlinePayment-CardFortress
-version:            0.01
+version:            0.02
 abstract:           CardFortress backend for Business::OnlinePayment
 author:
     - Ivan Kohler <ivan-cardfortress@420.am>
@@ -13,6 +13,7 @@ build_requires:
 requires:
     Business::OnlinePayment:  0
     Crypt::OpenSSL::RSA:  0
+    File::Slurp:          0
     Test::More:           0
 no_index:
     directory:

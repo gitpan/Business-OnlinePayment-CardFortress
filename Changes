@@ -1,5 +1,8 @@
 Revision history for Business-OnlinePayment-CardFortress
 
+0.02    Mon Dec 13 22:49:44 PST 2010
+        - Declare dependency on File::Slurp, closes: rt.cpan.org #63891
+
 0.01    Thu Dec  9 18:09:54 PST 2010
         First version, released on an unsuspecting world.
 

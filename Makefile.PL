@@ -13,6 +13,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+        'File::Slurp' => 0,
         'Crypt::OpenSSL::RSA' => 0,
         'Business::OnlinePayment' => 0,
     },

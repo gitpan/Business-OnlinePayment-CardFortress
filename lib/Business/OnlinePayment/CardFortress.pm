@@ -9,7 +9,7 @@ use File::Slurp;
 use MIME::Base64;
 use Crypt::OpenSSL::RSA;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub _info {
   {
